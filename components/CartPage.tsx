@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StoreItems, Items } from "@/type";
+import { StoreItems } from "@/type";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import {

@@ -11,10 +11,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-export default function App({
-  Component,
-  pageProps: { session, ...pageProps },
-}: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <main className={`${montserrat.variable} font-sans`}>

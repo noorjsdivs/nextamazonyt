@@ -8,7 +8,7 @@ const FormattedPrice = ({ amount }: Amount) => {
     currency: "USD",
     minimumFractionDigits: 2,
   });
-  return <div>{formattedAmount}</div>;
+  return <span>{formattedAmount}</span>;
 };
 
 export default FormattedPrice;
